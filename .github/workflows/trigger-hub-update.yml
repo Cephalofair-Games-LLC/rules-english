@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Hub Update
-        uses: smellofair/rules-actions/trigger-hub@v0.3
+        uses: cephalofair-games-llc/rules-actions/trigger-hub@v1.0
         with:
           pat: ${{ secrets.PAT }}
