@@ -1,0 +1,31 @@
+translations:
+  - name: English
+    language-code: en
+    directory: en # defaults to language-code value
+    games:
+      # shorthand if using the defaults would be:
+      # fh: Frosthaven
+      fh:
+        local-name: Frosthaven # required
+        directory: frosthaven # defaults to key (fh)
+        rules: rules.md # defaults to `rules.md`
+        faq: faq.md # defaults to `faq.md`
+      bnb:
+        local-name: Buttons & Bugs # shorthand
+        directory: buttons-and-bugs
+      fw:
+        local-name: Forge War
+        directory: forge-war
+      fc:
+        local-name: Forgotten Circles
+        directory: forgotten-circles
+      fog:
+        local-name: Founders of Gloomhaven
+        directory: founders-of-gloomhaven
+      gh2:
+        local-name: Gloomhaven 2nd Edition
+        directory: gloomhaven-2nd-edition
+      # gh: Gloomhaven 1st Edition
+      jotl:
+        local-name: Jaws of the Lion
+        directory: jaws-of-the-lion

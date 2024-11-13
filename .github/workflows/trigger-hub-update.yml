@@ -1,0 +1,14 @@
+name: Trigger Hub Update
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Trigger-Hub-Update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Hub Update
+        uses: smellofair/rules-actions/trigger-hub@v0.3
+        with:
+          pat: ${{ secrets.PAT }}
